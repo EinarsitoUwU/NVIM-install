@@ -18,7 +18,7 @@ down() {
 	fi
 }
 aliase() {
-	echo "alias nvim="./$ruta/nvim.appimage" " >> /home/$(whoami)/.zshrc  
+	echo "alias nvim="$ruta/./nvim.appimage" " >> /home/$(whoami)/.zshrc  
 }
 vimplug() {
 	mkdir /home/$(whoami)/.config/nvim
